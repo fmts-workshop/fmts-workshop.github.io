@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>FMTS @ NeurIPS 2026 | Foundation Models for Temporal Systems</title>
+  <meta name="description" content="Foundation Models for Temporal Systems: From Forecasting to World Modeling, a NeurIPS 2026 workshop in Sydney on forecasting, simulation, and reliable temporal AI.">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/css/site.css">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Foundation Models for Temporal Systems @ NeurIPS 2026">
+  <meta property="og:description" content="A NeurIPS 2026 workshop on forecasting, simulation, and reliable temporal world modeling.">
+</head>
+<body data-page="overview">
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <!-- Keep this navigation in sync across all four pages. -->
+  <nav class="site-nav" aria-label="Primary navigation">
+    <div class="wrap nav-inner">
+      <a class="brand" href="index.html" aria-label="FMTS workshop home">
+        <img class="brand-mark" src="assets/img/favicon.svg" alt="" width="32" height="32">
+        <span class="brand-copy">
+          <span class="brand-name">FMTS</span>
+          <span class="brand-venue">NeurIPS 2026 · Sydney</span>
+        </span>
+      </a>
+      <button class="nav-toggle" type="button" aria-controls="primary-navigation" aria-expanded="false" aria-label="Open navigation" title="Open navigation">&#9776;</button>
+      <ul class="nav-links" id="primary-navigation">
+        <li><a href="index.html" data-nav="overview">Overview</a></li>
+        <li><a class="nav-cfp" href="cfp.html" data-nav="cfp">Call for Papers</a></li>
+        <li><a href="index.html#program" data-nav="program">Program</a></li>
+        <li><a href="speakers.html" data-nav="speakers">Speakers</a></li>
+        <li><a href="organizers.html" data-nav="organizers">Organizers</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <header class="hero-home">
+    <div class="wrap hero-inner">
+      <p class="hero-kicker">NeurIPS 2026 Workshop · Sydney</p>
+      <h1>
+        Foundation Models for Temporal Systems
+        <span class="hero-title-detail">From Forecasting to World Modeling</span>
+      </h1>
+      <p class="hero-summary">Bringing forecasting, simulation, multimodal temporal data, and reliability into one research agenda for models of evolving real-world systems.</p>
+      <div class="hero-meta" aria-label="Workshop logistics">
+        <span class="hero-meta-item"><span class="meta-icon" aria-hidden="true">&#9679;</span>Sydney, Australia</span>
+        <span class="hero-meta-item"><span class="meta-icon" aria-hidden="true">&#9679;</span>December 11–12, 2026 <span class="meta-detail">(day and room TBA)</span></span>
+      </div>
+      <div class="btn-row">
+        <a class="btn" href="cfp.html">Read the Call for Papers <span aria-hidden="true">→</span></a>
+        <a class="btn btn-secondary" href="speakers.html">Meet the invited speakers</a>
+      </div>
+    </div>
+  </header>
+
+  <div class="status-band" aria-label="Important workshop status">
+    <div class="wrap status-grid">
+      <div class="status-item">
+        <span class="status-label">Submission deadline</span>
+        <span class="status-value">August 29, 2026</span>
+        <span class="status-note">11:59 pm Anywhere on Earth</span>
+      </div>
+      <div class="status-item">
+        <span class="status-label">Author notification</span>
+        <span class="status-value">September 29, 2026</span>
+        <span class="status-note">Fixed by NeurIPS</span>
+      </div>
+      <div class="status-item">
+        <span class="status-label">Workshop</span>
+        <span class="status-value">December 11–12</span>
+        <span class="status-note">One-day program; assignment TBA</span>
+      </div>
+      <div class="status-item">
+        <span class="status-label">Submission portal</span>
+        <span class="status-value status-open">OpenReview link coming soon</span>
+        <span class="status-note">The venue has not been created yet</span>
+      </div>
+    </div>
+  </div>
+
+  <main id="main-content">
+    <section class="section" id="overview">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="section-kicker">Why this workshop</p>
+          <h2>From forecasts to models of evolving systems</h2>
+        </div>
+        <div class="overview-grid">
+          <p class="lede">Temporal machine learning is moving beyond task-specific prediction. The next challenge is to build foundation models that can forecast, simulate, adapt, and support decisions in systems that evolve across time, modalities, and scales.</p>
+          <div class="thesis">
+            <h3>Temporal world modeling</h3>
+            <p>Real systems are multimodal, asynchronous, event-driven, multi-scale, and subject to distribution shift. Treating a model as more than a forecaster changes what matters: calibrated uncertainty, long-horizon consistency, simulation fidelity, causal structure, and reliable operation with retrieval, tools, and external context.</p>
+          </div>
+        </div>
+
+        <figure class="concept-figure" aria-labelledby="world-model-figure-title">
+          <div class="concept-figure-head">
+            <div>
+              <p class="section-kicker">Workshop framing</p>
+              <h3 id="world-model-figure-title">A shared model for forecasts, rollouts, and decisions</h3>
+            </div>
+            <p>The workshop connects multimodal histories and interventions to models that maintain temporal state, imagine alternative futures, and remain trustworthy as conditions change.</p>
+          </div>
+          <div class="concept-figure-viewport">
+            <picture>
+              <source srcset="assets/img/temporal-world-modeling-map.webp" type="image/webp">
+              <img class="world-model-art" src="assets/img/temporal-world-modeling-map.png" width="2200" height="1160" loading="lazy" alt="Systems diagram showing signals, events, context, and actions entering a persistent temporal state. The model forecasts, simulates, and supports decisions, with calibration, distribution shift, trajectory consistency, and causal structure forming a reliability layer.">
+            </picture>
+          </div>
+          <figcaption>A common systems view connects the workshop's four research axes: tasks, data and environments, models, and evaluation.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="section section-muted" id="themes">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="section-kicker">Research agenda</p>
+          <h2>Four connected research axes</h2>
+          <p class="section-intro">The workshop connects task design, data and environments, model architecture, and evaluation. Datasets, simulators, and temporal environments are treated as primary research artifacts, not supporting material.</p>
+        </div>
+
+        <div class="axes-grid">
+          <article class="axis">
+            <span class="axis-index">AXIS 01</span>
+            <h3>Forecasting and simulation tasks</h3>
+            <p>Long-horizon and multi-resolution prediction, multimodal contextual forecasting, calibrated probabilistic forecasts, trajectory simulation, and adaptive or agentic forecasting systems.</p>
+          </article>
+          <article class="axis">
+            <span class="axis-index">AXIS 02</span>
+            <h3>Temporal data and environments</h3>
+            <p>Rich environments combining time series with text, video, graphs, sensors, trajectories, actions, and events, alongside realistic benchmarks and scalable simulation suites.</p>
+          </article>
+          <article class="axis">
+            <span class="axis-index">AXIS 03</span>
+            <h3>Temporal models</h3>
+            <p>Irregular and event-based models, hierarchical multi-timescale systems, state-space architectures, generative temporal models, and time-series foundation models.</p>
+          </article>
+          <article class="axis">
+            <span class="axis-index">AXIS 04</span>
+            <h3>Evaluation and reliability</h3>
+            <p>Leakage-aware evaluation, robustness under shift, calibration, long-horizon and simulation consistency, neural scaling laws, contamination audits, and reproducibility.</p>
+          </article>
+        </div>
+        <p><a class="text-link" href="cfp.html#topics">Explore the complete topic list <span aria-hidden="true">→</span></a></p>
+      </div>
+    </section>
+
+    <section class="section" id="dates">
+      <div class="wrap dates-layout">
+        <div>
+          <p class="section-kicker">Timeline</p>
+          <h2>Important dates</h2>
+          <p class="section-intro">All submission deadlines are at 11:59 pm AoE. The notification date is set by the NeurIPS workshop chairs and cannot be extended.</p>
+        </div>
+        <div>
+          <ul class="date-list">
+            <li>
+              <span class="date-label">Submission deadline</span>
+              <span class="date-value">August 29, 2026<span class="date-note">11:59 pm AoE</span></span>
+            </li>
+            <li>
+              <span class="date-label">Author notification</span>
+              <span class="date-value">September 29, 2026 <span class="tag">Fixed</span></span>
+            </li>
+            <li>
+              <span class="date-label">Camera-ready</span>
+              <span class="date-value">November 6, 2026<span class="date-note">Tentative</span></span>
+            </li>
+            <li>
+              <span class="date-label">Workshop</span>
+              <span class="date-value">December 11–12, 2026<span class="date-note">Exact day and room TBA</span></span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-muted" id="speakers">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="section-kicker">Confirmed guests</p>
+          <h2>Invited speakers</h2>
+          <p class="section-intro">Eight researchers spanning time-series machine learning, foundation models, scientific ML, generative temporal modeling, and world models across academia and industry.</p>
+        </div>
+
+        <div class="speaker-grid">
+          <figure class="speaker-tile">
+            <img class="portrait" src="assets/img/people/rose-yu.jpg" alt="Rose Yu" data-name="Rose Yu" loading="lazy" width="400" height="400">
+            <figcaption><a href="speakers.html"><span class="speaker-name">Rose Yu</span><span class="speaker-affil">UC San Diego</span></a></figcaption>
+          </figure>
+          <figure class="speaker-tile">
+            <img class="portrait" src="assets/img/people/michael-mahoney.jpg" alt="Michael W. Mahoney" data-name="Michael W. Mahoney" loading="lazy" width="400" height="400">
+            <figcaption><a href="speakers.html"><span class="speaker-name">Michael W. Mahoney</span><span class="speaker-affil">UC Berkeley · ICSI · LBNL</span></a></figcaption>
+          </figure>
+          <figure class="speaker-tile">
+            <img class="portrait" src="assets/img/people/abdul-fatir-ansari.jpg" alt="Abdul Fatir Ansari" data-name="Abdul Fatir Ansari" loading="lazy" width="400" height="400">
+            <figcaption><a href="speakers.html"><span class="speaker-name">Abdul Fatir Ansari</span><span class="speaker-affil">AWS</span></a></figcaption>
+          </figure>
+          <figure class="speaker-tile">
+            <img class="portrait" src="assets/img/people/aditi-krishnapriyan.jpg" alt="Aditi Krishnapriyan" data-name="Aditi Krishnapriyan" loading="lazy" width="400" height="400">
+            <figcaption><a href="speakers.html"><span class="speaker-name">Aditi Krishnapriyan</span><span class="speaker-affil">UC Berkeley</span></a></figcaption>
+          </figure>
+          <figure class="speaker-tile">
+            <img class="portrait" src="assets/img/people/marinka-zitnik.jpg" alt="Marinka Zitnik" data-name="Marinka Zitnik" loading="lazy" width="400" height="400">
+            <figcaption><a href="speakers.html"><span class="speaker-name">Marinka Zitnik</span><span class="speaker-affil">Harvard Medical School</span></a></figcaption>
+          </figure>
+          <figure class="speaker-tile">
+            <img class="portrait" src="assets/img/people/daniel-schmidt.jpg" alt="Daniel F. Schmidt" data-name="Daniel Schmidt" loading="lazy" width="400" height="400">
+            <figcaption><a href="speakers.html"><span class="speaker-name">Daniel F. Schmidt</span><span class="speaker-affil">Monash University</span></a></figcaption>
+          </figure>
+          <figure class="speaker-tile">
+            <img class="portrait" src="assets/img/people/mingsheng-long.jpg" alt="Mingsheng Long" data-name="Mingsheng Long" loading="lazy" width="400" height="400">
+            <figcaption><a href="speakers.html"><span class="speaker-name">Mingsheng Long</span><span class="speaker-affil">Tsinghua University</span></a></figcaption>
+          </figure>
+          <figure class="speaker-tile">
+            <img class="portrait" src="assets/img/people/flora-salim.jpg" alt="Flora Salim" data-name="Flora Salim" loading="lazy" width="400" height="400">
+            <figcaption><a href="speakers.html"><span class="speaker-name">Flora Salim</span><span class="speaker-affil">UNSW Sydney</span></a></figcaption>
+          </figure>
+        </div>
+        <p><a class="text-link" href="speakers.html">Read speaker profiles <span aria-hidden="true">→</span></a></p>
+      </div>
+    </section>
+
+    <section class="section" id="organizers">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="section-kicker">Who is behind this</p>
+          <h2>Organizers</h2>
+          <p class="section-intro">Eight organizers spanning large-scale forecasting, temporal representation learning, scientific machine learning, generative modeling, and deployed AI systems.</p>
+        </div>
+
+        <div class="speaker-grid">
+          <figure class="speaker-tile">
+            <img class="portrait" src="assets/img/people/boris-oreshkin.jpg" alt="Boris N. Oreshkin" data-name="Boris Oreshkin" loading="lazy" width="400" height="400">
+            <figcaption><a href="organizers.html"><span class="speaker-name">Boris N. Oreshkin</span><span class="speaker-affil">Amazon</span></a></figcaption>
+          </figure>
+          <figure class="speaker-tile">
+            <img class="portrait" src="assets/img/people/danielle-maddix-robinson.jpg" alt="Danielle Maddix Robinson" data-name="Danielle Maddix Robinson" loading="lazy" width="400" height="400">
+            <figcaption><a href="organizers.html"><span class="speaker-name">Danielle Maddix Robinson</span><span class="speaker-affil">Siemens Physical AI</span></a></figcaption>
+          </figure>
+          <figure class="speaker-tile">
+            <img class="portrait" src="assets/img/people/omri-azencot.jpg" alt="Omri Azencot" data-name="Omri Azencot" loading="lazy" width="400" height="400">
+            <figcaption><a href="organizers.html"><span class="speaker-name">Omri Azencot</span><span class="speaker-affil">Ben-Gurion University</span></a></figcaption>
+          </figure>
+          <figure class="speaker-tile">
+            <img class="portrait" src="assets/img/people/mayank-jauhari.jpg" alt="Mayank Jauhari" data-name="Mayank Jauhari" loading="lazy" width="400" height="400">
+            <figcaption><a href="organizers.html"><span class="speaker-name">Mayank Jauhari</span><span class="speaker-affil">Amazon</span></a></figcaption>
+          </figure>
+          <figure class="speaker-tile">
+            <img class="portrait" src="assets/img/people/ming-jin.jpg" alt="Ming Jin" data-name="Ming Jin" loading="lazy" width="400" height="400">
+            <figcaption><a href="organizers.html"><span class="speaker-name">Ming Jin</span><span class="speaker-affil">Griffith University</span></a></figcaption>
+          </figure>
+          <figure class="speaker-tile">
+            <img class="portrait" src="assets/img/people/emadeldeen-eldele.jpg" alt="Emadeldeen Eldele" data-name="Emadeldeen Eldele" loading="lazy" width="400" height="400">
+            <figcaption><a href="organizers.html"><span class="speaker-name">Emadeldeen Eldele</span><span class="speaker-affil">Khalifa University</span></a></figcaption>
+          </figure>
+          <figure class="speaker-tile">
+            <img class="portrait" src="assets/img/people/chenghao-liu.jpg" alt="Chenghao Liu" data-name="Chenghao Liu" loading="lazy" width="400" height="400">
+            <figcaption><a href="organizers.html"><span class="speaker-name">Chenghao Liu</span><span class="speaker-affil">Datadog</span></a></figcaption>
+          </figure>
+          <figure class="speaker-tile">
+            <img class="portrait" src="assets/img/people/benjamin-erichson.jpg" alt="N. Benjamin Erichson" data-name="Benjamin Erichson" loading="lazy" width="400" height="400">
+            <figcaption><a href="organizers.html"><span class="speaker-name">N. Benjamin Erichson</span><span class="speaker-affil">Berkeley Lab · ICSI</span></a></figcaption>
+          </figure>
+        </div>
+        <p><a class="text-link" href="organizers.html">Read organizer profiles <span aria-hidden="true">→</span></a></p>
+      </div>
+    </section>
+
+    <section class="section section-muted" id="program">
+      <div class="wrap">
+        <div class="program-intro">
+          <div>
+            <p class="section-kicker">One-day program</p>
+            <h2>Talks, posters, and open discussion</h2>
+            <p class="section-intro">A deliberately mixed program for technical depth and sustained exchange. Timing remains tentative until NeurIPS assigns the workshop day and room.</p>
+          </div>
+          <dl class="program-facts">
+            <div><dt>Invited talks</dt><dd>8 speakers</dd></div>
+            <div><dt>Spotlights</dt><dd>10 papers</dd></div>
+            <div><dt>Posters</dt><dd>2 sessions</dd></div>
+            <div><dt>Discussion</dt><dd>Panel + open forum</dd></div>
+          </dl>
+        </div>
+
+        <div class="table-wrap schedule">
+          <table>
+            <caption class="sr-only">Tentative one-day workshop schedule</caption>
+            <thead>
+              <tr><th scope="col">Time</th><th scope="col">Session</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>09:00–09:10</td><td>Opening remarks</td></tr>
+              <tr><td>09:10–10:10</td><td>Invited talks I–III</td></tr>
+              <tr class="is-break"><td>10:10–10:55</td><td>Coffee break and Posters I</td></tr>
+              <tr><td>10:55–11:35</td><td>Invited talks IV–V</td></tr>
+              <tr><td>11:35–12:20</td><td>Spotlights I <span class="kind">5 talks + Q&amp;A</span></td></tr>
+              <tr class="is-break"><td>12:20–13:30</td><td>Lunch</td></tr>
+              <tr><td>13:30–14:10</td><td>Invited talks VI–VII</td></tr>
+              <tr class="is-break"><td>14:10–14:55</td><td>Coffee break and Posters II</td></tr>
+              <tr><td>14:55–15:15</td><td>Invited talk VIII</td></tr>
+              <tr><td>15:15–16:00</td><td>Spotlights II <span class="kind">5 talks + Q&amp;A</span></td></tr>
+              <tr><td>16:00–17:00</td><td>Moderated panel</td></tr>
+              <tr><td>17:00–17:25</td><td>Open community discussion</td></tr>
+              <tr><td>17:25–17:30</td><td>Closing remarks</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="note">Invited talks are 20 minutes each; spotlight talks are 7 minutes plus Q&amp;A. The schedule will be adjusted to final NeurIPS 2026 logistics.</p>
+      </div>
+    </section>
+
+    <section class="section" id="community">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="section-kicker">Community</p>
+          <h2>Built for exchange across research traditions</h2>
+        </div>
+        <div class="community-grid">
+          <article class="community-block">
+            <h3>Who should attend</h3>
+            <p>Researchers and practitioners in time-series ML, multimodal and generative temporal modeling, foundation models, scientific ML, and world models, alongside teams building production systems for healthcare, climate, and operations. We anticipate 200–300 in-person attendees.</p>
+            <p>This new workshop complements TSALM, BERT<sup>2</sup>S, MiLeTS, and AI4TS while centering what temporal world modeling adds beyond forecasting.</p>
+          </article>
+          <article class="community-block">
+            <h3>Inclusion and accessibility</h3>
+            <p>Women make up 4 of the 8 invited speakers. The team spans institutions across Asia, the Middle East, Australia, Europe, and North America, bridges academia and industry, and includes researchers across career stages.</p>
+            <p>Spotlight selection will prioritise junior and early-career contributions, and the workshop will follow NeurIPS accessibility and inclusion guidance.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-band" id="contact">
+      <div class="wrap contact-layout">
+        <div>
+          <p class="section-kicker">Get in touch</p>
+          <h2>Questions about the workshop?</h2>
+        </div>
+        <p>For submission or program questions, email
+          <!-- TODO(organizers): create this group alias, or replace it before launch. -->
+          <a href="mailto:fmts-neurips2026@googlegroups.com">fmts-neurips2026@googlegroups.com</a>.
+          You can also review the <a href="organizers.html">organizing team</a>.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <div>
+        <p><strong>Foundation Models for Temporal Systems</strong></p>
+        <p>A workshop at <a href="https://neurips.cc/Conferences/2026/">NeurIPS 2026</a> in Sydney.</p>
+      </div>
+      <div>
+        <p><a href="cfp.html">Call for Papers</a> · <a href="speakers.html">Speakers</a> · <a href="organizers.html">Organizers</a></p>
+        <p><a href="https://neurips.cc/Conferences/2026/CodeOfConduct">NeurIPS Code of Conduct</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/include.js"></script>
+</body>
+</html>
