@@ -7,6 +7,6 @@ Time-series machine learning is moving beyond task-specific prediction toward fo
 forecast, simulate, and support decisions in systems that evolve across time, modalities, and scales.
 We solicit work across four axes: forecasting and simulation tasks, temporal data and environments,
 temporal models, and evaluation and reliability. Submissions close **August 29, 2026** (AoE);
-non-archival, with eight invited speakers.
+non-archival, with seven invited speakers.
 
 Full details at **<https://fmts-workshop.github.io>**.
