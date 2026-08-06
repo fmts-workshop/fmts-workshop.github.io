@@ -41,3 +41,8 @@ jobs:
 
       - id: deployment
         uses: actions/deploy-pages@v4
+        with:
+          # The action's 10-minute default is not enough here: deployments for this
+          # repo reach `deployment_in_progress` and then get aborted mid-publish even
+          # though the publish itself succeeds. 30 minutes leaves ample headroom.
+          timeout: 1800000
