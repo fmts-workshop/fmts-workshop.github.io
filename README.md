@@ -1,7 +1,7 @@
 # FMTS @ NeurIPS 2026
 
 **Foundation Models for Temporal Systems: From Forecasting to World Modeling** — a one-day workshop
-at [NeurIPS 2026](https://neurips.cc/Conferences/2026/) in Sydney, December 11–12.
+at [NeurIPS 2026](https://neurips.cc/Conferences/2026/) in Sydney, December 11.
 
 Time-series machine learning is moving beyond task-specific prediction toward foundation models that
 forecast, simulate, and support decisions in systems that evolve across time, modalities, and scales.
